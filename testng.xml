@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite"  verbose="4">
+
+ <listeners>
+		<listener class-name="com.itview.pagobject.Listeners" />
+  </listeners>
+
+  <test name="Test - CarHomeEMI">
+    <classes>
+          <class name="com.itview.testcases.CarHomeEMI_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test - CreditCardEMI">
+    <classes>
+          <class name="com.itview.testcases.CreditCard_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test - EducationEMI">
+    <classes>
+          <class name="com.itview.testcases.EducationEMI_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- RegressionSuite -->

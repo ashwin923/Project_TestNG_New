@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15412" started-at="2022-07-31T12:51:58 IST" finished-at="2022-07-31T12:52:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15412" started-at="2022-07-31T12:51:58 IST" finished-at="2022-07-31T12:52:13 IST">
+      <class name="com.itview.testcases.DataDriven_DataProvider">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.itview.testcases.DataDriven_DataProvider@401e7803]" name="preCondition" is-config="true" duration-ms="2790" started-at="2022-07-31T12:51:58 IST" finished-at="2022-07-31T12:52:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="fixedDeposit_Test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.itview.testcases.DataDriven_DataProvider@401e7803]" name="fixedDeposit_Test" duration-ms="4530" started-at="2022-07-31T12:52:00 IST" data-provider="dp" finished-at="2022-07-31T12:52:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Simple Interest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fixedDeposit_Test -->
+        <test-method status="PASS" signature="fixedDeposit_Test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.itview.testcases.DataDriven_DataProvider@401e7803]" name="fixedDeposit_Test" duration-ms="3562" started-at="2022-07-31T12:52:05 IST" data-provider="dp" finished-at="2022-07-31T12:52:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[400000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Simple Interest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fixedDeposit_Test -->
+        <test-method status="PASS" signature="fixedDeposit_Test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.itview.testcases.DataDriven_DataProvider@401e7803]" name="fixedDeposit_Test" duration-ms="3705" started-at="2022-07-31T12:52:08 IST" data-provider="dp" finished-at="2022-07-31T12:52:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[800000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Simple Interest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fixedDeposit_Test -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.itview.testcases.DataDriven_DataProvider@401e7803]" name="postCondition" is-config="true" duration-ms="747" started-at="2022-07-31T12:52:12 IST" finished-at="2022-07-31T12:52:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.itview.testcases.DataDriven_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
